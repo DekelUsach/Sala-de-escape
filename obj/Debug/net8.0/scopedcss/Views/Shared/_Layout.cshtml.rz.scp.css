@@ -1,45 +1,45 @@
-﻿
 
-a.navbar-brand {
+
+a.navbar-brand[b-o9f8gjrylr] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
 
-a {
+a[b-o9f8gjrylr] {
   color: #0077cc;
 }
 
-.btn-primary {
+.btn-primary[b-o9f8gjrylr] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active[b-o9f8gjrylr], .nav-pills .show > .nav-link[b-o9f8gjrylr] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top {
+.border-top[b-o9f8gjrylr] {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom {
+.border-bottom[b-o9f8gjrylr] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow {
+.box-shadow[b-o9f8gjrylr] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy {
+button.accept-policy[b-o9f8gjrylr] {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer {
+.footer[b-o9f8gjrylr] {
   position: absolute;
   bottom: 0;
   width: 100%;
