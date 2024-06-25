@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿const darkmode = document.querySelector(".cambiar-modo")
+const body = document.body
 
-// Write your JavaScript code.
+darkmode.addEventListener("click", () => {
+    body.classList.toggle("dark-mode")
+    if(darkmode.innerText == "Cambiar a dark mode"){
+        darkmode.innerHTML = "Cambiar a light mode"
+    }
+    else{
+        darkmode.innerHTML = "Cambiar a dark mode"
+    }
+    
+})
