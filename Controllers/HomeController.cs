@@ -26,7 +26,7 @@ public class HomeController : Controller
     {
         int sala = Escape.GetEstadoJuego();
         string habitacion = "Habitacion" + sala.ToString(); 
-        return View();
+        return View(habitacion);
     }
     public IActionResult Creditos()
     {
@@ -34,8 +34,8 @@ public class HomeController : Controller
     }
     public IActionResult Habitacion(int sala, string clave)
     {
-        return View();
         
+        return View();
     }
 
 

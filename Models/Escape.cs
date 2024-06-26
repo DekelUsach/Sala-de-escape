@@ -1,6 +1,6 @@
 static class Escape{
 static string[] incognitasSalas = {"a","b"};
-static int estadoJuego;
+static int estadoJuego = 1;
 
 private static void InicializarJuego(){}
 
@@ -18,6 +18,7 @@ public static bool ResolverSala(int Sala, string Incognita){
     }
     if (incognitasSalas[_estadoJuego-1] == Incognita){
         resuelto = true;
+        estadoJuego++;
     }
     else{
         resuelto = false;
