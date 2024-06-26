@@ -18,25 +18,25 @@ public class HomeController : Controller
         return View();
     }
 
-public IActionResult Tutorial()
-{
+    public IActionResult Tutorial()
+    {
+        return View("Tutorial");
+    }
+    public IActionResult Comenzar()
+    {
+        int sala = Escape.GetEstadoJuego();
+        string habitacion = "Habitacion" + sala.ToString(); 
+        return View();
+    }
+    public IActionResult Creditos()
+    {
     return View();
-}
-public IActionResult Comenzar()
-{
-   return View();
-}
-public IActionResult Creditos()
-{
-   return View();
-}
-public IActionResult Habitacion(int sala, string clave)
-{
-    sala = 1;
-    string habitacion="Habitacion" + sala;   
+    }
+    public IActionResult Habitacion(int sala, string clave)
+    {
+        return View();
         
-    return View(habitacion);
-}
+    }
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
