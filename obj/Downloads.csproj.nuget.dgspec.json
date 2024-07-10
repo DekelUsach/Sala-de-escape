@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devandroid\\Desktop\\Sala-de-escape\\Downloads.csproj": {}
+    "C:\\Users\\48386383\\Downloads\\Sala-de-escape\\Downloads.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devandroid\\Desktop\\Sala-de-escape\\Downloads.csproj": {
+    "C:\\Users\\48386383\\Downloads\\Sala-de-escape\\Downloads.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devandroid\\Desktop\\Sala-de-escape\\Downloads.csproj",
+        "projectUniqueName": "C:\\Users\\48386383\\Downloads\\Sala-de-escape\\Downloads.csproj",
         "projectName": "Downloads",
-        "projectPath": "C:\\Users\\devandroid\\Desktop\\Sala-de-escape\\Downloads.csproj",
-        "packagesPath": "C:\\Users\\devandroid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devandroid\\Desktop\\Sala-de-escape\\obj\\",
+        "projectPath": "C:\\Users\\48386383\\Downloads\\Sala-de-escape\\Downloads.csproj",
+        "packagesPath": "C:\\Users\\48386383\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48386383\\Downloads\\Sala-de-escape\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\devandroid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\48386383\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
