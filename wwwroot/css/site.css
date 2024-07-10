@@ -113,11 +113,15 @@ main{
 }
 
 .habitacion-1-main{
+  display: flex;
+  flex-direction: column;
   border-radius: 15px;
   background-color: white;
   width: 80%;
-  margin: 50px 50px 50px 50px;
-
+  padding: 20px;
+  justify-content: center;
 }
+
+
 
   

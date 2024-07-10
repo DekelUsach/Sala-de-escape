@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RM3siqk6tQD3uiKdGdn5ZJO4xZaYMN5gPsx93rGKyTo=",
+  "Hash": "smZcQbyqd+Z3xe43lBFc3U3tHZfYjn4RLnZmY7QWuLY=",
   "Source": "Downloads",
   "BasePath": "_content/Downloads",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\General\\lupa.png"
+    },
+    {
+      "Identity": "C:\\Users\\devandroid\\Desktop\\Sala-de-escape\\wwwroot\\Images\\Habitacion1\\Habitacion_1.png",
+      "SourceId": "Downloads",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\devandroid\\Desktop\\Sala-de-escape\\wwwroot\\",
+      "BasePath": "_content/Downloads",
+      "RelativePath": "Images/Habitacion1/Habitacion_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Habitacion1\\Habitacion_1.png"
     },
     {
       "Identity": "C:\\Users\\devandroid\\Desktop\\Sala-de-escape\\wwwroot\\Images\\IndexImg\\Al_mcwighin.png",

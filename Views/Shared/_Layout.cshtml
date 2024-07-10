@@ -16,15 +16,17 @@
         </main> 
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="footer">
+        <div class="footer-left">
             &copy; Sala de escape
         </div>
-        <div class="boton-menu">
-            <button onclick=window.location.href='@Url.Action("Index")'>Volver al menu</button>
-        </div>
-        <div class="pista-menu">
-            <img src="Images/General/lupa.png" class="img-pista">
+        <div class="footer-right">
+            <div class="pista-menu">
+                <img src="../Images/General/lupa.png" alt="Pista" class="img-pista">
+            </div>
+            <div class="boton-menu">
+                <button onclick="window.location.href='@Url.Action("Index")'">Volver al menu</button>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
