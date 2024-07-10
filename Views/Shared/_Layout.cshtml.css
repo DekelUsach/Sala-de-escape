@@ -21,8 +21,7 @@ a {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
-}
-
+}x
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
@@ -40,9 +39,42 @@ button.accept-policy {
 }
 
 .footer {
-  position: absolute;
+  display: flex;
+  z-index: 1;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+  background-color: white;
+  height: 70px;
+
 }
+.pista-menu img{
+  width: 20%;
+}
+
+.footer-boton-menu {
+  display: flex;
+  justify-content: center;
+}
+.boton-menu button {
+  display: flex;
+  background-color: #007BFF; 
+  color: #FFFFFF; 
+  border: none; 
+  padding: 15px 30px; 
+  font-size: 16px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-menu-button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+.footer-boton-menu button:focus {
+  outline: none; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+

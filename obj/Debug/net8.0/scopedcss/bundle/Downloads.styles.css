@@ -22,8 +22,7 @@ a[b-o9f8gjrylr] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
-}
-
+}x
 .border-top[b-o9f8gjrylr] {
   border-top: 1px solid #e5e5e5;
 }
@@ -41,9 +40,42 @@ button.accept-policy[b-o9f8gjrylr] {
 }
 
 .footer[b-o9f8gjrylr] {
-  position: absolute;
+  display: flex;
+  z-index: 1;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+  background-color: white;
+  height: 70px;
+
 }
+.pista-menu img[b-o9f8gjrylr]{
+  width: 20%;
+}
+
+.footer-boton-menu[b-o9f8gjrylr] {
+  display: flex;
+  justify-content: center;
+}
+.boton-menu button[b-o9f8gjrylr] {
+  display: flex;
+  background-color: #007BFF; 
+  color: #FFFFFF; 
+  border: none; 
+  padding: 15px 30px; 
+  font-size: 16px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-menu-button:hover[b-o9f8gjrylr] {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+.footer-boton-menu button:focus[b-o9f8gjrylr] {
+  outline: none; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+

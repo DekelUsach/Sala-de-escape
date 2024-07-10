@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="~/Downloads.styles.css" asp-append-version="true" />
 </head>
 <body>
-
-    
-
     
     <div class="container">
         <main role="main" class="pb-3">
@@ -23,10 +20,17 @@
         <div class="container">
             &copy; Sala de escape
         </div>
+        <div class="boton-menu">
+            <button onclick=window.location.href='@Url.Action("Index")'>Volver al menu</button>
+        </div>
+        <div class="pista-menu">
+            <img src="Images/General/lupa.png" class="img-pista">
+        </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/general.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

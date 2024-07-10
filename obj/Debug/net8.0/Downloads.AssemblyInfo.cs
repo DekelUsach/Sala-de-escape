@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Downloads")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9190e998d6bee21be7e87fd10c66e49c64078c2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f600cdbcf70da18c28ceac4dc2361486fda8c23")]
 [assembly: System.Reflection.AssemblyProductAttribute("Downloads")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Downloads")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

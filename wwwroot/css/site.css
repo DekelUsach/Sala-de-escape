@@ -7,6 +7,11 @@ html {
     font-size: 16px;
   }
 }
+body {
+  background-image: url("../Images/General/Background_toy_story.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
@@ -19,13 +24,12 @@ html {
 
 body {
   margin-bottom: 60px;
+  z-index: 0;
 }
 
 *{
   padding: 0;
   margin: 0;
-  /*border: solid black 1px;*/
-
 }
 .dark-mode{
   background-color: rgb(109, 106, 106);
@@ -39,60 +43,81 @@ body {
   height: 100px;
 }
 
-/*INDEX*/
+/*                                                              INDEX                                                             */
 
-  body {
-      height: 100vh;
-      margin: 0;
-      background-color: #f0f0f0;
-  }
-  main{
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.image-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  }
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
 
+.image-item {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    background-color: #fff;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
 
-  .image-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      padding: 20px;
-  }
+.image-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
-  .image-item {
-      display: flex;
-      align-items: center;
-      align-items: flex-start;
-      background-color: #fff;
-      width: 350px;
-      height: auto;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s, box-shadow 0.3s;
-  }
+.image {
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s;
+    border-radius: 5px;
+}
 
-  .image-item:hover {
-      transform: scale(1.1);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
+.image-item:hover .image {
+    transform: scale(1.15);
+}
 
-  .image {
-      margin-right: 20px;
-      width: 150px;
-      height: auto;
-      transition: transform 0.3s;
-      border-radius: 5px;
-  }
+.text {
+    font-size: 24px;
+    font-weight: bold;
+}
+/*                                                              HABITACIONES GENERAL                                            */
 
- .image-item:hover .image {
-      transform: scale(1.15);
-  }
+.custom-swal-image {
+  border-radius: 5px; 
+  max-width: 100%; 
+  height: 400px;
+}
+/*                                                              habitacion 1                                                    */
+.habitacion-1{
+  display: flex;
+  justify-content: center;
+}
 
-  .text {
-      font-size: 24px;
-      font-weight: bold;
-  }
+.habitacion-1-main{
+  border-radius: 15px;
+  background-color: white;
+  width: 80%;
+  margin: 50px 50px 50px 50px;
+
+}
+
   
